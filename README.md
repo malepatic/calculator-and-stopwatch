@@ -3,8 +3,8 @@ Part A: Simple Calculator Web Application
 
 1. Login Page (Page 1)
 
-	•	Fields and Validations:
-	•	Email: Accepts only Northeastern University emails; must include null checks and special character validation.
+	`•	Fields and Validations:`
+	`•	Email: Accepts only Northeastern University emails; must include null checks and special character validation.`
 	•	Username: Minimum and maximum length validation, special character validation.
 	•	Password: Must have minimum and maximum length checks.
 	•	Confirm Password: Should match the Password field.
