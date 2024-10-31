@@ -48,7 +48,7 @@ Single-Page Structure
 	•	Stop: Pauses the stopwatch timer.
 	•	Reset: Resets the timer to 00:00:00.
 
-Key Concepts Used
+`Key Concepts Used`
 
 	•	Async, Await, and Promises:
 	•	The stopwatch functionality incorporates asynchronous JavaScript using async and await for seamless time tracking.
@@ -59,7 +59,7 @@ Key Concepts Used
 	•	clearInterval stops the timer, ensuring that setInterval is only active when the timer is running.
 	•	Example: When the Start button is clicked, setInterval initiates the timer update; clicking Stop triggers clearInterval, pausing the timer.
 
-Summary of Stopwatch Flow
+`Summary of Stopwatch Flow`
 
 	1.	Start Button: Begins the stopwatch using setInterval, with time display updates handled asynchronously.
 	2.	Stop Button: Pauses the timer by clearing the interval using clearInterval.
