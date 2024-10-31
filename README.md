@@ -4,7 +4,7 @@ Part A: Simple Calculator Web Application
 1. Login Page (Page 1)
 
 	`•	Fields and Validations:`
-	`•	Email: Accepts only Northeastern University emails; must include null checks and special character validation.`
+	•	Email: Accepts only Northeastern University emails; must include null checks and special character validation.
 	•	Username: Minimum and maximum length validation, special character validation.
 	•	Password: Must have minimum and maximum length checks.
 	•	Confirm Password: Should match the Password field.
@@ -18,7 +18,7 @@ Part A: Simple Calculator Web Application
 	•	All validations are implemented using jQuery.
 	•	On successful validation, the user is redirected to the calculator page.
 
-2. Calculator Page (Page 2)
+`2. Calculator Page (Page 2)`
 
 	•	User Display:
 	•	Displays the logged-in username at the top.
@@ -34,7 +34,7 @@ Part A: Simple Calculator Web Application
 	•	Error messages display below the fields and are specific to each issue.
 	•	No pop-up notifications are used.
 
-Part B: Stopwatch Web Application
+`Part B: Stopwatch Web Application`
 
 Single-Page Structure
 
