@@ -4,15 +4,13 @@ $(document).ready(() => {
         $('#welcomeMessage').text(`Welcome, ${loggedInUser}!`);
     }
 
-    const calculate = (num1, num2, operation) => {
-        switch(operation) {
-            case 'add': return num1 + num2;
-            case 'subtract': return num1 - num2;
-            case 'multiply': return num1 * num2;
-            case 'divide': return num2 !== 0 ? num1 / num2 : 'Infinity';
-            default: return null;
-        }
-    };
+    // Single arrow function to handle all four operations
+    const calculate = (num1, num2, operation) => ({
+        'add': num1 + num2,
+        'subtract': num1 - num2,
+        'multiply': num1 * num2,
+        'divide': num2 !== 0 ? num1 / num2 : 'Infinity'
+    }[operation] || null);
 
     const validateNumberField = (field, errorElement) => {
         const value = field.val().trim();
